@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sideBar {
+  background: #222;
+  color: #fff;
+  padding: 20px;
+}
+.sideBar h4 {
+  color: #ffcc00;
+  padding: 10px 0;
+}
+.sideBar ul {
+  font-size: 15px;
+  font-weight: 200;
+}
+.article-box {
+  transition: transform 0.3s;
+  border-top: 2px solid #ddd;
+  padding-top: 50px;
+}
+.article-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+footer img {
+  width: 25%;
+  height: 22vh;
+}
